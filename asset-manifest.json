@@ -1,13 +1,15 @@
 {
   "files": {
-    "main.css": "/surah-ferist/static/css/main.4843aafa.css",
-    "main.js": "/surah-ferist/static/js/main.3d8b9b9c.js",
+    "main.css": "/surah-ferist/static/css/main.3449bfc0.css",
+    "main.js": "/surah-ferist/static/js/main.81b90081.js",
+    "static/media/Jameel Noori Nastaleeq 2.ttf": "/surah-ferist/static/media/Jameel Noori Nastaleeq 2.9df5b32be8dfffb7d00b.ttf",
+    "static/media/_PDMS_Kalash.ttf": "/surah-ferist/static/media/_PDMS_Kalash.cf0024c01da1f05a865e.ttf",
     "index.html": "/surah-ferist/index.html",
-    "main.4843aafa.css.map": "/surah-ferist/static/css/main.4843aafa.css.map",
-    "main.3d8b9b9c.js.map": "/surah-ferist/static/js/main.3d8b9b9c.js.map"
+    "main.3449bfc0.css.map": "/surah-ferist/static/css/main.3449bfc0.css.map",
+    "main.81b90081.js.map": "/surah-ferist/static/js/main.81b90081.js.map"
   },
   "entrypoints": [
-    "static/css/main.4843aafa.css",
-    "static/js/main.3d8b9b9c.js"
+    "static/css/main.3449bfc0.css",
+    "static/js/main.81b90081.js"
   ]
 }
