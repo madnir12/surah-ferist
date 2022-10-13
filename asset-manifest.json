@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/surah-ferist/static/css/main.4843aafa.css",
+    "main.js": "/surah-ferist/static/js/main.3d8b9b9c.js",
+    "index.html": "/surah-ferist/index.html",
+    "main.4843aafa.css.map": "/surah-ferist/static/css/main.4843aafa.css.map",
+    "main.3d8b9b9c.js.map": "/surah-ferist/static/js/main.3d8b9b9c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4843aafa.css",
+    "static/js/main.3d8b9b9c.js"
+  ]
+}
