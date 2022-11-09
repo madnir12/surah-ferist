@@ -1,28 +1,25 @@
-import React, {useState} from 'react'
+import React, {useState, useEffect} from 'react'
 import SingleItem from './SingleItem'
+import {GoSearch} from 'react-icons/go'
 
-const Fehrist = ({Surah})=>{
-  const [SearchVal,setSearchVal] = useState("")
-  // let [searchCount,setSearchCount] = useState(0)
-  // let count = 0;
+const Fehrist = ({Surah,searchCount,setSearchVal,changeArry,searchVal})=>{
+
   return(
     <>
    <div className='centered'>
    <div className="search-div">
-   <input type="text" placeholder="Search Surah by name , number or any word you have" onChange={(e)=> setSearchVal(e.target.value)
+   
+   <GoSearch className='searchIcon' />
+   <input type="text" placeholder="Search Surah by name , number or any word you have" onChange={(e)=> {
+    setSearchVal(e.target.value)
+    changeArry()
+  }
      }/>
+     <span className='searchSpan'>{(searchVal == ""? 'total: 114': `found: ${searchCount}`)}</span>
    </div>
     
     {
-      Surah.filter(val=>{
-        if(SearchVal == ""){
-          return val
-        } else if(val.SurahID.includes(SearchVal) || val.SurahIntro.includes(SearchVal) || val.SurahNameU.includes(SearchVal) || val.SurahNameE.toLowerCase().includes(SearchVal.toLowerCase()) || val.Nazool.toLowerCase().includes(SearchVal.toLowerCase())){
-          
-          return val
-          
-        }
-      }).map((surah)=>{
+      Surah.map((surah)=>{
         return <SingleItem key={surah.SurahID} {...surah} />
       } // ends map's inline function
 
