@@ -17,7 +17,7 @@ function App() {
         
       }
     })
-    console.log("change arry is in rurring")
+    
     setFinalSurah(newSurah)
     setSearchCount(newSurah.length)
   }
